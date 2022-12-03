@@ -1,6 +1,6 @@
 Datos Geográficos:
-Altitud : 1 719 metros de altitud
-Latitud: 6.16206
-Flora: Árbol Higuerón
-Fauna: Osos Hormigueros
-Superficie: 4 100 hectáreas (41,00 km²)
+Altitud: 1 259 metros de altitud  
+Latitud: 6.283
+Flora: ------------
+Fauna:  --------------
+Superficie: 41 100 hectáreas (411,00 km²) 
