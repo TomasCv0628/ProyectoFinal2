@@ -45,21 +45,24 @@ public class Controlador implements ActionListener
         {
             Reader a = new Reader();
             venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"/Escritorio/ProyectoFinal2/municipios/"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"/1.txt"));
-            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"Desktop\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\1.txt"));
-        
+            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"\\Desktop\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\1.txt"));
+            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"\\Escritorio\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\1.txt"));
+    
         } 
         if(this.venPrin.miPanelEntradaDatos.cultural.isSelected())
         {
             Reader a = new Reader();
             venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"/Escritorio/ProyectoFinal2/municipios/"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"/2.txt"));
-            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"Desktop\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\2.txt"));
+            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"\\Desktop\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\2.txt"));
+            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"\\Escritorio\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\2.txt"));
         
         }
         if(this.venPrin.miPanelEntradaDatos.otros.isSelected())
         {
             Reader a = new Reader();
             venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"/Escritorio/ProyectoFinal2/municipios/"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"/3.txt"));
-            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"Desktop\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\3.txt"));
+            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"\\Desktop\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\3.txt"));
+            venPrin.miDialogoSec.mostrarResultado(a.leerTxt(System.getProperty("user.home")+"\\Escritorio\\ProyectoFinal2\\"+ venPrin.miPanelEntradaDatos.cbMunicipios.getSelectedItem()+"\\3.txt"));
         }
 
         if(comando.equals("salir"))
