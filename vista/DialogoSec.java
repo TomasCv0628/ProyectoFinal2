@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.ImageIcon;
-
+import java.awt.Color;
 
 public class DialogoSec extends JDialog
 {
@@ -28,6 +28,8 @@ public class DialogoSec extends JDialog
     public DialogoSec()
     {
         this.setLayout(null);
+        this.getContentPane().setBackground(Color.decode("#EDE6DB"));
+
         /* 
         iImagen = new ImageIcon(getClass().getResource("/vista/Elsocorro.png"));
         lbImagen = new JLabel(iImagen);

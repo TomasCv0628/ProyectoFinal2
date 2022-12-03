@@ -2,8 +2,11 @@ package vista;
 
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 import javax.swing.BorderFactory;
 import javax.swing.JComboBox;
 import javax.swing.border.TitledBorder;
@@ -19,17 +22,16 @@ public class PanelEntradaDatos extends JPanel
     public JRadioButton cultural;
     public JRadioButton otros;
 
-    
     public PanelEntradaDatos()
     {
-        setLayout(null);
-        setBackground(Color.LIGHT_GRAY);
+        this.setLayout(null);
+        this.setBackground(Color.decode("#A2B38B"));
 
         titulo = new JLabel("JET");
         titulo.setBounds(125,30,50,20);
         this.add(titulo);
 
-        String[] municip= {"Socorro", "San gil", "Bucaramanga"};
+        String[] municip= {"Aguada" ,"Albania","Aratoca","Barbosa","Barichara","Barrancabermeja","Betulia","Bolívar","Bucaramanga","Cabrera","California","Capitanejo","Carcasí","Cepitá","Cerrito","Charalá","Charta","Chima","Cimitarra","Concepción","Confines","Contratación","Coromoro","Curití","El Carmen de Chucurí","El Guacamayo","El Peñón","El Playón","Encino","Enciso","Florián","Floridablanca","Galán","Gámbita","Girón","Guaca","Guadalupe","Güespa","Hato","Jesús María","Jordán","La Belleza","La Paz","Landázuri","Lebrija","Los Santos","Macaravita","Malaga","Matanza","Mogotes","Molagavita","Ocamonte","Oiba","Onzaga","Palmar","Palmas del Socorro","Páramo","Piedecuesta","Pinchote","Puente Nacional","Puerto Parra","Puerto Wilches","Rionegro","Sabana de Torres","San Andrés","San Benito","San gil","San Joaquín","San José de Miranda","San Miguel","San Vicente de Chucurí","Santa Bárbara","Santa Helena del Opón","Simacota","Socorro","Suaita","Sucre","Suratá","Tona","Valle de San José","Vélez","Vetas","Villanueva","Zapatoca"};
         listaMunicipios = new JList(municip);
 
         cbMunicipios = new JComboBox<>(municip);
@@ -54,5 +56,4 @@ public class PanelEntradaDatos extends JPanel
         borde.setTitleColor(Color.BLUE);
         setBorder(borde);
     }
-
 }

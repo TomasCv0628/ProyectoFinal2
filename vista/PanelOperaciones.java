@@ -23,7 +23,7 @@ public class PanelOperaciones extends JPanel
     public PanelOperaciones()
     {
         this.setLayout(null);
-        this.setBackground(Color.WHITE);
+        this.setBackground(Color.decode("#A2B38B"));
 
         btBuscar = new JButton("Buscar");
         btBuscar.setBounds(30,25,100,30);

@@ -1,6 +1,7 @@
 package vista;
 
 import javax.swing.JFrame;
+import java.awt.Color;
 
 public class VentanaPrincipal extends JFrame
 {
@@ -20,6 +21,8 @@ public class VentanaPrincipal extends JFrame
     {
         //Definición del layout de la ventana
         this.setLayout(null);
+        this.getContentPane().setBackground(Color.decode("#EDE6DB"));
+
 
         //Creación y adición del PanelEntradaDatos
         miPanelEntradaDatos = new PanelEntradaDatos();
@@ -38,6 +41,7 @@ public class VentanaPrincipal extends JFrame
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setVisible(true);
+
     }
     public void crearDialogoSec()
     {
